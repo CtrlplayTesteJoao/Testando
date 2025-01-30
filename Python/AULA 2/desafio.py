@@ -1,0 +1,37 @@
+'''frase = input("Digite uma frase: ").upper()
+espacoEmBranco = frase.count(' ')
+print(f"A frase tem {espacoEmBranco} espaços")
+print(f"A frase tem {frase.count(' ')} espaços")
+
+vogalA = frase.count('A')
+vogalE = frase.count('E')
+vogalI = frase.count('I')
+vogalO = frase.count('O')
+vogalU = frase.count('U')
+print(f"A vogal a, aparece {vogalA} vezes na frase!")
+print(f"A vogal e, aparece {vogalE} vezes na frase!")
+print(f"A vogal i, aparece {vogalI} vezes na frase!")
+print(f"A vogal o, aparece {vogalO} vezes na frase!")
+print(f"A vogal u, aparece {vogalU} vezes na frase!")
+
+frase = "C\nt\nr\nl\n+\nP\nl\na\ny"
+print(frase)
+
+novaFrase = ("Ctrl+Play").upper()
+print(novaFrase[:1])
+print(novaFrase[:2])
+print(novaFrase[:3])
+print(novaFrase[:4])
+print(novaFrase[:5])
+print(novaFrase[:6])
+print(novaFrase[:7])
+print(novaFrase[:8])
+print(novaFrase[:9])'''
+nome = input("Digite seu nome: ")
+partesNome = nome.split()
+print(partesNome[0])
+print(partesNome[1])
+print(partesNome[-1])
+#caso queiramos todo o sobrenome completo
+sobrenomeCompleto = " ".join(partesNome[1:])
+print(sobrenomeCompleto)
